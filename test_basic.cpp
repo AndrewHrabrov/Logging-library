@@ -45,7 +45,7 @@ void testLevelFiltering() {
     std::string testFile = "test_filter.log";
     remove(testFile.c_str());
     
-    // Тест 2: Фильтрация по уровню (только WARNING и ERROR)
+    // Тест 2: Фильтрация по уровню 
     {
         LogApp app(testFile, LogLevel::Warning);
         app.addLogEntry("This info should not appear", LogLevel::Info);
