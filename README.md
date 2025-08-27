@@ -96,7 +96,7 @@ make run-tests
 ### 📝 Формат логов
 [2025-08-27 20:27:12] [INFO] Test info message\
 [2025-08-27 20:27:12] [WARNING] Test warning message\
-[2025-08-27 20:27:12] [ERROR] Test error message\
+[2025-08-27 20:27:12] [ERROR] Test error message
 
 ### 🔌 API
 
